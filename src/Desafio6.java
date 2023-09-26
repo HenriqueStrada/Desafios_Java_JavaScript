@@ -7,8 +7,8 @@ public class Desafio6 {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> lista = new ArrayList<Integer>();
 
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Digite numero: " + i);
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Digite o numero " + i);
             int info = scanner.nextInt();
             lista.add(info);
         }
